@@ -12,4 +12,4 @@ I created a basic Swing GUI with a `JFrame` and a drawing `JPanel` to display th
 
 The second method, the `calculatePoint` method, calculates a `Point2D` based on the x, y center point, the radius, and the angle from the center point in degrees.  Because the y value on a Swing drawing `JPanel` goes downward, the degrees circle the center point clockwise.
 
-Calculating where the six hexagons that make up the flower peetals turned out to be the hardest part.  The formula for finding the hypotenuse of an isosceles triangle is `2 * radius - cosine(theta)`, where theta is the equivalent of 30 degrees expressed in radians.
+Calculating where the six hexagons that make up the flower petals turned out to be the hardest part.  The formula for finding the hypotenuse of an isosceles triangle is `2 * radius - cosine(theta)`, where theta is the equivalent of 30 degrees expressed in radians.
